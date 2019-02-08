@@ -1,0 +1,14 @@
+{
+  "groups": [{
+    "name": "greeting",
+    "type": "com.example.greetingconfig.greeting.GreetingProperties",
+    "sourceType": "com.example.greetingconfig.greeting.GreetingProperties"
+  }],
+  "properties": [{
+    "name": "greeting.display-fortune",
+    "type": "java.lang.Boolean",
+    "sourceType": "com.example.greetingconfig.greeting.GreetingProperties",
+    "defaultValue": false
+  }],
+  "hints": []
+}
