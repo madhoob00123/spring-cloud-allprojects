@@ -1,0 +1,9 @@
+spring:
+   application:
+       name: greeting-hystrix
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
